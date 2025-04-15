@@ -1,0 +1,23 @@
+{
+  "name": "youtube-downloader-rest-api",
+  "version": "1.0.0",
+  "description": "youtube chapter downloader ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "youtube",
+    "server",
+    "api",
+    "downloader",
+    "chapter"
+  ],
+  "author": "guru prasath",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "ytdl-core": "npm:@distube/ytdl-core@^4.16.8"
+  }
+}
